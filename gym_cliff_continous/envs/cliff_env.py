@@ -7,7 +7,7 @@ from gym import error, spaces, utils
 from gym.utils import seeding
 
 
-class CliffContinous(gym.Env):
+class CliffContinuous(gym.Env):
     metadata = {'render.modes': ['human']}
 
     def __init__(self, w=400, h=400, speed=20):
